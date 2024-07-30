@@ -1,0 +1,39 @@
+
+# Online Product Store
+
+Online Product Store is a web application for managing products and facilitating online shopping. It allows administrators to add, update, and delete products, while customers can view available products and make purchases.
+
+## Features
+
+- **Admin Panel**: Secure login for administrators to manage products.
+- **Product Management**: Add, update, and delete products with ease.
+- **Customer Interface**: Customers can view products and make purchases.
+- **User Authentication**: Secure login system for both administrators and customers.
+
+## Technologies Used
+
+- **Java**: Backend logic and servlets.
+- **JSP (JavaServer Pages)**: Dynamic web page generation.
+- **HTML/CSS**: Frontend presentation and styling.
+- **Servlets**: Handling HTTP requests and responses.
+- **SQL**: Database management for storing product and user information.
+
+## Setup Instructions
+
+1. Clone the repository to your local machine.
+2. Import the project into your preferred IDE (such as Eclipse or IntelliJ).
+3. Set up the database schema using the provided SQL file.
+4. Configure the database connection properties in the project configuration files.
+5. Deploy the project to a servlet container such as Apache Tomcat.
+6. Access the application through the browser and start managing products or shopping.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/my-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature/my-feature`).
+6. Create a new Pull Request.

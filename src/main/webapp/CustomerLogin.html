@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login to OnlineProductStore</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #101820;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: #ffffff; /* Set default text color to white */
+    }
+    .container {
+        padding: 130px;
+    }
+    h1 {
+        color: #007bff;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    h3, input[type="text"], input[type="password"] {
+        display: inline-block;
+        vertical-align: middle; /* Align elements vertically */
+    }
+    h3 {
+        width: 120px; /* Adjust width as needed */
+        text-align: right; /* Align text to the right */
+        margin-right: 20px; /* Add margin between label and input */
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="submit"] {
+        padding: 10px;
+        margin: 5px;
+        border: 1px solid #007bff;
+        border-radius: 5px;
+        font-size: 16px;
+        width: 200px; /* Adjust width based on h3 width */
+        box-sizing: border-box; /* Include padding and border in the width */
+    }
+    input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+    a {
+        color: #007bff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    a:hover {
+		padding-top: 10px;
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login to OnlineProductStore</h1>
+        <form action="Clogin" method="post">
+            <h3>Username:</h3><input type="text" name="uname"><br><br>
+            <h3>Password:</h3><input type="password" name="pword"><br><br>
+            <input type="submit" value="Login">
+        </form>
+        <br>
+        <br>
+        <a href="Register.html">New User Register?</a>
+    </div>
+</body>
+</html>
